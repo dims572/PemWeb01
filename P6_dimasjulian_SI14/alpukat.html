@@ -54,6 +54,74 @@
             #tombol{
                 text-align: center;
             }
+            .buah{
+                background-color: rgb(142, 122, 10);
+                list-style-type: none;
+                padding: 10px;
+                color: white;
+            }
+            .li1{
+                float: none;
+            }
+            .li2{
+                margin-left: 280px;
+                float: none;
+            }
+            .li3{
+                margin-left: 465px;
+                margin-top: -115px;
+                float: none;
+            }
+            .li4{
+                margin-left: 725px;
+                float: none;
+            }
+            table{
+                margin-top: 20px;
+                margin-left: 360px;
+                border: 1px solid blue;
+                border-collapse: collapse;
+                width: 600px;
+                
+                font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            }
+            thead{
+                background-color: blue;
+                text-align: center;
+                color: white;
+                border: 1px solid blue;
+                font-weight: bold;
+            }
+            tbody{
+                color: black;
+            }
+            .tr2{
+                border: 1px solid blue;
+                background-color: lightblue;
+                text-align: center;
+            }
+            .tr3{
+                border: 1px solid blue;
+                background-color: white;
+                text-align: center;
+            }
+            .tr4{
+                border: 1px solid blue;
+                background-color: lightblue;
+                text-align: center;
+            }
+            .tr5{
+                border: 1px solid blue;
+                background-color: white;
+                text-align: center;
+            }
+            td{
+                border: 1px solid blue;
+            }
+            .td1{
+                font-weight: bold;
+                text-align: center;
+            }
         </style>
     </head>
     <body>
@@ -90,27 +158,62 @@ Daerah penghasil alpukat adalah Jawa Barat,Jawa Timur, sebagian Sumatera, Sulawe
             Selain itu terdapat juga berbagai macam vitamin seperti E, K, B5 dan B6.</p>
         <p>
             <h3>Berikut khasiat buah Alpukat:</h3>
-            <ol>
-                <li>Vitamin E, Memiliki anti aging yang bisa mendorong
+            <ol class="buah">
+                <li class="li1"><b>1. Vitamin E</b><br> Memiliki <b><i>anti aging</i></b> yang bisa <br> mendorong
                     perawatan kulit alamai
                 </li>
-                <li>Vitamin K, Membantu mencegah terjadinya osteoporosis</li>
-                <li>Viitamin B5, Membantu menurunkan tingkat stress, meringankan rasa sakit</li>
-                <li>Vitamin B6, Membantu treat diabetes, pendarahan menstruasi,
+                <li class="li2"><b>2. Vitamin K</b><br> Membantu <b>mencegah</b><br> terjadinya osteoporosis</li>
+                <li class="li3"><b>3. Vitamin B5</b><br> Membantu <b>menurunkan</b> tingkat<br> stress, meringankan rasa sakit</li>
+                <li class="li4"><b>4. Vitamin B6</b><br> Membantu <b><i>treat diabetes,</i></b><br> pendarahan menstruasi,
                     insomnia
                 </li>
             </ol>
         </p>
-
-
         <div class="foto">
-
 <img src="images/alpukat_miki.png" alt="alpukat miki"/>
 <img src="images/alpukat_mentega.png" alt="alpukat mentega"/>
 <img src="images/alpukat_kendil.png" alt="alpukat kendil"/>
 <img src="images/alpukat_aligator.png" alt="alpukat alpukat_aligator"/>
-
         </div>
+        <table>
+            <thead>
+            <tr class="tr1">
+                <td>No</td>
+                <td>Jenis Alpukat</td>
+                <td>Harga 1 Kg</td>
+                <td>Harga 2 Kg</td>
+                <td>Harga 3 Kg</td>
+            </tr></thead>
+            <tbody>
+            <tr class="tr2">
+                <td class="td1">1</td>
+                <td>Alpukat Mentega</td>
+                <td>Rp. 35.000,-</td>
+                <td>Rp. 65.000,-</td>
+                <td>Rp. 90.000,-</td>
+            </tr>
+            <tr class="tr3">
+                <td class="td1">2</td>
+                <td>Alpukat Miki</td>
+                <td>Rp. 50.000,-</td>
+                <td>Rp. 90.000,-</td>
+                <td>Rp. 135.000,-</td>
+            </tr>
+            <tr class="tr4">
+                <td class="td1">3</td>
+                <td>Alpukat Aligator</td>
+                <td>Rp. 30.000,-</td>
+                <td>Rp. 55.000,-</td>
+                <td>Rp. 80.000,-</td>
+            </tr>
+            <tr class="tr5">
+                <td class="td1">4</td>
+                <td>Alpukat Kendil</td>
+                <td>Rp. 40.000,-</td>
+                <td>Rp. 75.000,-</td>
+                <td>Rp. 100.000,-</td>
+            </tr></tbody>
+        </table>
         <div class="promo">
             <h2>Anda ingin Buah Alpukat?, <br/>Penawaran Khusus Bagi Anda </h2>
             <h3>
@@ -129,7 +232,5 @@ Daerah penghasil alpukat adalah Jawa Barat,Jawa Timur, sebagian Sumatera, Sulawe
        <div id="tombol">
             <button>PESAN SEKARANG</button>
        </div>
-     
-      
     </body>
 </html>
